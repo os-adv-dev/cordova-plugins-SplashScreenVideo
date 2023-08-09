@@ -6,6 +6,6 @@
     "semver": "^6.0.0",
     "xml2js": "^0.6.0",
     "js2xmlparser": "5.0.0",
-    "node-fetch": "3.3.2"
+    "node-fetch": "^2.6.6"
   }
 }
