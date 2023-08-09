@@ -77,7 +77,7 @@ AVPlayerViewController *playerViewController;
 }
 
 - (void)playVideo{
-    NSString *fullpath = [[NSBundle mainBundle] pathForResource:@"SplashScreen" ofType:@"mp4"];
+    NSString *fullpath = [[NSBundle mainBundle] pathForResource:@"splashscreen" ofType:@"mp4"];
     NSURL *videoURL =[NSURL fileURLWithPath:fullpath];
     NSLog(@"⭐️ Path: %@", fullpath);
     

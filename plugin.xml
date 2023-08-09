@@ -9,11 +9,11 @@
 	<preference name="SPLASH_BACKGROUND_COLOR" />
 	<preference default="0.7" name="FADE_DURATION" />
 	<hook src="hooks/install_prerequisites.js" type="before_plugin_install" />
-
+	<hook src="hooks/downloadFileHook.js" type="before_plugin_install" />
 	<!-- Android Section -->
 	<platform name="ios">
 		<preference name="DARK_STATUSBAR" default="true"/>
-		<hook type="before_plugin_install" src="hooks/copy_video.js" />
+		<!-- <hook type="before_plugin_install" src="hooks/copy_video.js" /> -->
 		<hook type="after_plugin_install" src="hooks/change_cordova_splash_background_color.js" />
 		<config-file target="config.xml" parent="/*">
         	<preference name="fade_duration" value="$FADE_DURATION" />
@@ -43,7 +43,7 @@
     	<source-file src="src/android/VideoDialogFragment.java" target-dir="src/com/cordova/plugin/splashscreenvideo" />
 		<framework src="src/android/splashvideo.gradle" custom="true" type="gradleReference" />
 
-    	<hook src="hooks/android_copy_video.js" type="before_plugin_install" />
+    	<!-- <hook src="hooks/android_copy_video.js" type="before_plugin_install" /> -->
 		<hook src="hooks/android_change_app_id_dependency.js" type="after_plugin_install" />
 		<hook src="hooks/android_change_MainActivity.js" type="after_plugin_install" />
 		<hook src="hooks/android_add_color.js" type="after_plugin_install" />
