@@ -32,7 +32,7 @@
 		<source-file src="src/ios/CDVSplashScreenVideo.m" />
 		<source-file src="src/ios/MainViewController+SplashScreenVideo.m" />
 		<header-file src="src/ios/MainViewController+SplashScreenVideo.h" />
-		<resource-file src="src/SplashScreen.mp4" />
+		<resource-file src="src/splashscreen.mp4" />
 	</platform>
 
 	<!-- Android Section -->
