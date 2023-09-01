@@ -14,7 +14,7 @@ cordova plugin add https://github.com/os-adv-dev/cordova-plugins-SplashScreenVid
 
 ### Global Preferences
 
-- **SPLASH_BACKGROUND_COLOR**: Set the background color of the splash screen. Accepts standard color formats like HEX or RGB.
+- **SPLASH_BACKGROUND_COLOR**: Set the background color of the splash screen. Accepts standard color formats in HEX.
 - **FADE_DURATION**: Sets the fade duration for the splash screen. The default value is `0.7`. It likely represents the time in seconds for the fade effect.
 - **VIDEO_URL**: The URL of the video that will be used as the splash screen. For example: `https://file-examples.com/storage/fe235481fb64f1ca49a92b5/2017/04/file_example_MP4_1280_10MG.mp4`.
 
