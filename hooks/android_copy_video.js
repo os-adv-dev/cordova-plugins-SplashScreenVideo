@@ -15,7 +15,8 @@ module.exports = function(context) {
   }
 
   var wwwPath = utils.getResourcesFolderPath(context, platform, platformConfig);
-  var sourceFilePath = path.join(context.opts.projectRoot, "platforms", "android", "app", "src", "main", "assets", "www", "SplashVideo", "SplashScreen.mp4");
+  var sourceFilePath = path.join(context.opts.projectRoot,"plugins" ,"com.cordova.plugin.splashscreenvideo" ,"src" , constants.VideoFile);
+  //path.join(context.opts.projectRoot, "platforms", "android", "app", "src", "main", "assets", "www", "SplashVideo", "SplashScreen.mp4");
   var destFilePath = path.join(context.opts.projectRoot,"plugins" ,"com.cordova.plugin.splashscreenvideo" ,"src" , constants.VideoFile.toLowerCase());
     console.log("⭐️ wwwPath: " + wwwPath);
     console.log("⭐️ sourceFilePath: " + sourceFilePath);
