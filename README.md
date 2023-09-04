@@ -1,7 +1,5 @@
 # Cordova Video Splash Screen Plugin
 
-![OutSystems Logo](https://www.outsystems.com/apple-touch-icon.png)
-
 This plugin allows Cordova apps to use a video as a splash screen on both iOS and Android platforms. The video will play immediately when the app is launched.
 
 ## Getting Started
