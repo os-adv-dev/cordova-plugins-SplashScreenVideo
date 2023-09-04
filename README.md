@@ -20,9 +20,5 @@ cordova plugin add https://github.com/os-adv-dev/cordova-plugins-SplashScreenVid
 
 - **DARK_STATUSBAR**: Determines whether the status bar should appear dark during the splash screen on iOS devices. The default value is `true`.
 
-
-### Credits
-This plugin was created by André Grillo - OutSystems
-
 ### License
 This plugin is licensed under the Apache License, Version 2.0. See the LICENSE file for more details.
