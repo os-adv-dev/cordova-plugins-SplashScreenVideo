@@ -13,7 +13,7 @@ cordova plugin add https://github.com/os-adv-dev/cordova-plugins-SplashScreenVid
 ### Global Preferences
 
 - **SPLASH_BACKGROUND_COLOR**: Set the background color of the splash screen. Accepts standard color formats in HEX.
-- **VIDEO_URL**: The URL of the video that will be used as the splash screen. For example: `https://file-examples.com/storage/fe235481fb64f1ca49a92b5/2017/04/file_example_MP4_1280_10MG.mp4`.
+- **VIDEO_URL**: The URL of the video that will be used as the splash screen. For example: `https://github.com/os-adv-dev/public-resources/raw/main/ONE-LED-Intro.mp4`.
 
 ### iOS Specific Preferences
 
